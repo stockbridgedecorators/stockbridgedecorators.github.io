@@ -6,6 +6,7 @@
 $padding: 14px;
 
 $color: #2c302d;
+$color-caption: #444;
 
 $color-dark-green: #02180b;
 $color-light-green: #052512;
@@ -66,7 +67,7 @@ a:hover { color: $color-light-green; }
 
 figcaption {
   margin: 1em 0;
-  color: #444;
+  color: $color-caption;
   font-size: 14px;
 }
 
@@ -128,6 +129,7 @@ header.site-header {
   h2 {
     font-size: 3.6em;
     margin: 1em 0 0;
+    color: #eee;
 
     @media (max-width: 800px) {
       font-size: 2.6em;
@@ -202,7 +204,7 @@ header.site-header {
       font-family: $font-sans;
       text-transform: uppercase;
       font-weight: 600;
-      font-size: 1.2em;
+      font-size: 1.1em;
       letter-spacing: 1px;
       color: $color-link-green;
     }
@@ -275,7 +277,7 @@ header.site-header {
     filter: grayscale(100%);
     display: inline-block;
     max-height: 90px;
-    max-width: 11%;
+    max-width: 10%;
     margin-right: 2%;
 
     @media (max-width: 800px) {
@@ -301,7 +303,7 @@ footer .column {
   float: none;
   font-size: 14px;
   margin-bottom: 5em;
-  color: #444;
+  color: $color-caption;
 
   p {
     margin: 0;
