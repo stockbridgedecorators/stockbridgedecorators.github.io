@@ -1,0 +1,27 @@
+
+# theme
+
+title: Stockbridge Decorators
+description: Trusted Decorators for Edinburgh and The Lothians
+
+url: https://stockbridgedecorators.com
+
+theme: minima
+
+# google_analytics: UA-NNNNNNNN-N
+
+show_excerpts: true
+
+sass:
+  style: compressed
+
+#
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
