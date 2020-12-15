@@ -5,6 +5,8 @@
 
 $padding: 14px;
 
+$color: #2c302d;
+
 $color-dark-green: #02180b;
 $color-light-green: #052512;
 $color-link-green: #0f532a;
@@ -25,7 +27,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   background-color: $background-color;
-  color: #2c302d;
+  color: $color;
 }
 
 .wrapper { max-width: 1300px; }
@@ -150,7 +152,7 @@ header.site-header {
     }
 
     a {
-      border: 2px solid $color-light-green;
+      border: 2px solid $color-link-green;
       display: inline-block;
       margin: 0 0.5em 1em 0;
 
@@ -178,7 +180,7 @@ header.site-header {
     a:hover {
       transition-duration: 0.25s;
       color: #fff;
-      background-color: $color-light-green;
+      background-color: $color-link-green;
 
       svg {
         color: #fff;
@@ -203,6 +205,10 @@ header.site-header {
       font-size: 1.2em;
       letter-spacing: 1px;
       color: $color-link-green;
+    }
+
+    a, a:visited {
+      color: $color;
     }
 
     p {
