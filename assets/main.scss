@@ -16,6 +16,10 @@ $background-color: #f5f4ed;
 $font-serif: 'Lora', serif;
 $font-sans: 'Poppins', sans-serif;
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: $font-sans;
   font-size: 16px;
