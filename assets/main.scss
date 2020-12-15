@@ -146,16 +146,40 @@ header.site-header {
     }
 
     a {
-      padding: 12px 15px;
       border: 2px solid $color-light-green;
       display: inline-block;
       margin: 0 0.5em 1em 0;
+
+      span {
+        display: inline-block;
+        padding: 12px 15px;
+      }
+
+      svg {
+        width: 26px;
+        height: 26px;
+        position: relative;
+        top: 8px;
+        padding: 0 15px;
+      }
+    }
+
+    #instagram {
+
+      span {
+        padding-left: 0;
+      }
     }
 
     a:hover {
       transition-duration: 0.25s;
       color: #fff;
       background-color: $color-light-green;
+
+      svg {
+        color: #fff;
+        fill: #fff;
+      }
     }
   }
 
