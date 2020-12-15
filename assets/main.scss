@@ -46,7 +46,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 2.6em;
+  font-size: 2.5em;
   margin: 1em 0;
 }
 
@@ -85,19 +85,19 @@ section {
 header.site-header {
   position: fixed;
   width: 100%;
-  background-color: #f2f2f2;
+  background-color: $background-color;
   border: 0;
   font-weight: 600;
   top: 0px;
   border-bottom: 1px solid $color-border;
 
-  .site-title, nav {
-    padding: 0 $padding;
+  span {
+    padding-left: $padding;
+    line-height: 54px;
   }
 
-  nav {
-    line-height: 54px;
-    text-align: center;
+  .site-title, nav {
+    padding: 0 $padding;
   }
 
   .phone {
@@ -145,10 +145,6 @@ header.site-header {
       margin: 0 0 2.5em;
     }
 
-    strong {
-      color: #444;
-    }
-
     a {
       padding: 12px 15px;
       border: 2px solid $color-light-green;
@@ -178,12 +174,11 @@ header.site-header {
       font-weight: 600;
       font-size: 1.2em;
       letter-spacing: 1px;
+      color: $color-link-green;
     }
 
     p {
-      font-family: $font-serif;
-      font-size: 1.6em;
-      color: $color-link-green;
+      font-size: 1.2em;
     }
   }
 }
