@@ -14,6 +14,8 @@ $color-link-green: #0f532a;
 
 $color-border: #bbb;
 
+$color-gold: #D4AF37;
+
 $background-color: #f5f4ed;
 
 $font-serif: 'Lora', serif;
@@ -61,6 +63,20 @@ section, #services .row, .clear { clear: both; }
   }
 }
 
+.desktop {
+  @media (max-width: 800px) {
+    display: none;
+  }
+}
+
+.mobile {
+  display: none;
+
+  @media (max-width: 800px) {
+    display: inline;
+  }
+}
+
 h1, h2, h3, h4 {
   font-family: $font-serif;
   line-height: 1.4;
@@ -80,7 +96,15 @@ h3 { font-size: 1.3em; }
 
 p { margin: 1.5em 0; }
 
-a, a:visited { color: $color-link-green; }
+strong {
+  color: $color-link-green;
+}
+
+a, a:visited {
+  outline: none;
+  color: $color-link-green;
+}
+
 a:hover { color: $color-light-green; }
 
 figcaption {
@@ -91,8 +115,8 @@ figcaption {
 
 hr {
   border: none;
-  color: $color-border;
-  background-color: $color-border;
+  color: $color-gold;
+  background-color: $color-gold;
   height: 1px;
   margin: 3em 0;
 }
@@ -117,15 +141,9 @@ header.site-header {
   border-bottom: 1px solid $color-border;
   z-index: 1;
 
-  .free {
+  .line {
     padding-left: $padding;
     line-height: 54px;
-  }
-
-  .hide {
-    @media (max-width: 800px) {
-      display: none;
-    }
   }
 
   .site-title, nav {
@@ -192,8 +210,8 @@ header.site-header {
       width: 100%;
     }
 
-    h2 {
-      margin: 0 0 2.5em;
+    .buttons {
+      margin: 3em 0 0;
     }
 
     a {
@@ -283,6 +301,15 @@ header.site-header {
         font-size: 95%;
       }
     }
+
+    #social {
+      margin: 2.5em 0 0;
+
+      img {
+        width: 40px;
+        margin-right: 8px;
+      }
+    }
   }
 }
 
@@ -296,8 +323,9 @@ header.site-header {
     }
   }
 
-  h1 {
-    margin-bottom: 0;
+  hr {
+    margin-left: 15%;
+    margin-right: 15%;
   }
 
   h2 {
@@ -307,6 +335,12 @@ header.site-header {
     font-size: 1em;
     letter-spacing: 1px;
     color: $color-link-green;
+    border-bottom: 1px solid $color-gold;
+    display: inline-block;
+  }
+
+  .row2 {
+    margin-top: 2em;
   }
 }
 
@@ -321,10 +355,6 @@ header.site-header {
     margin: 0 15% 5em;
   }
 
-  strong {
-    color: $color-link-green;
-  }
-
   img {
     filter: grayscale(100%);
     display: inline-block;
@@ -335,6 +365,12 @@ header.site-header {
 }
 
 #logos {
+
+  hr {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
   box-sizing: border-box;
   padding: 0 $padding;
 
