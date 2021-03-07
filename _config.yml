@@ -1,21 +1,30 @@
 
-# theme
-
 title: Stockbridge Decorators
-description: Trusted Decorators for Edinburgh and The Lothians
+tagline: Trusted Painters and Decorators in Edinburgh
 
-url: https://stockbridgedecorators.com
+description: | 
+  Stockbridge Decorators are a trusted family run painting and decorating business in 
+  Edinburgh and The Lothians specialising in residential and commercial interior and exterior work including:
+  preperation, painting and decorating, wallpapering, airless spraying, aimes taping and fire protection.
+
+url: https://www.stockbridgedecorators.com
+
+logo: https://www.stockbridgedecorators.com/assets/favicon.png
+
+social:
+  name: Stockbridge Decorators
+  links:
+    - https://www.instagram.com/stockbridgedecorators/
+    - https://g.page/Stockbridge-Decorators
+
+locale: en_UK
 
 theme: minima
-
-# google_analytics: UA-NNNNNNNN-N
 
 show_excerpts: true
 
 sass:
   style: compressed
-
-#
 
 exclude:
   - Gemfile
