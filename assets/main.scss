@@ -158,7 +158,7 @@ header.site-header {
 #hero {
   box-sizing: border-box;
   background-color: $color-dark-green;
-  background: url("/assets/images/cover-1.jpg") #234429;
+  background: url("/assets/images/hero.jpg") #234429;
   background-position: 50% 25%;
   background-size: cover;
   background-blend-mode: multiply;
@@ -179,9 +179,9 @@ header.site-header {
     width: 100%;
     max-width: 400px;
   }
-  
+
   h1 {
-   display: none; 
+   display: none;
   }
 
   h2 {
