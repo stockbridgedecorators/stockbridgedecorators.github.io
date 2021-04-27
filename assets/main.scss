@@ -364,7 +364,7 @@ header.site-header {
     display: inline-block;
     max-height: 90px;
     max-width: 200px;
-    margin: 3em 15px 0;
+    margin: 3em 15px 3em;
   }
 }
 
@@ -381,6 +381,10 @@ header.site-header {
   h1 {
     font-size: 2em;
     padding-left: 0;
+    text-align: center;
+  }
+
+  h2 {
     text-align: center;
   }
 
