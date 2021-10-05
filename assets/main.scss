@@ -349,7 +349,7 @@ header.site-header {
 }
 
 #environment {
-  padding: 5em 0 3em;
+  padding: 5em 0 0;
   text-align: center;
 
   h1 { margin: 0 0 1em; }
@@ -393,7 +393,6 @@ header.site-header {
   }
 
   .logos {
-    padding: 0 0 1em;
 
     @media (max-width: 800px) {
       padding: 1px;
