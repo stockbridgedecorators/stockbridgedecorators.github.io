@@ -1,0 +1,35 @@
+
+title: Stockbridge Decorators
+tagline: Trusted Painters and Decorators in Edinburgh
+
+description: |
+  Stockbridge Decorators specialise in residential and commercial interior and exterior decorating in Edinburgh and The Lothians.
+
+url: https://www.stockbridgedecorators.com
+
+logo: https://www.stockbridgedecorators.com/assets/favicon.png
+
+social:
+  name: Stockbridge Decorators
+  links:
+    - https://www.instagram.com/stockbridgedecorators/
+    - https://g.page/Stockbridge-Decorators
+
+locale: en_UK
+
+theme: minima
+
+show_excerpts: true
+
+sass:
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
