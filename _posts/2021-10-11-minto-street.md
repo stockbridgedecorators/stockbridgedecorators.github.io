@@ -4,8 +4,6 @@ image: /assets/images/blog/minto-street/cover.jpg
 excerpt: Stockbridge Decorators recently undertook an interesting and challenging decorating project over a luxurious multi-story home with a decorative staircase, intricate cornices, and all while the family were still living in their home.
 ---
 
-*Reece Kennedy, Director*
-
 Stockbridge Decorators recently undertook an interesting and challenging decorating project over a luxurious multi-story home with a decorative staircase, intricate cornices, and all while the family were still living in their home. The family are exceptionally pleased with the result we achieved, repairing damaged walls, blending soft yellows and white against the dark accents of the decorative woodwork, detailed stained glass and vaulted skylight.
 
 ![Walls, woodwork and metal finished](/assets/images/blog/minto-street/colours.jpg)
@@ -34,5 +32,4 @@ The entire project, across a multi-story home with 5 rooms and a complex stairwe
 
 If you’re looking to decorate your home, get in touch with us and we’ll get back to you shortly to arrange a visit and get you a quick quote.
 
-Looking forward to meeting you.<br>
-Reece
+Looking forward to meeting you.
